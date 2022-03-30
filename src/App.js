@@ -4,6 +4,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
+        <div className="logo">KEEMDB PORTFOLIO</div>
         <h1>클린코드를 지향하는 개발자, 김동범</h1>
         <div className="profile">
           <img src="./img/profile.jpg"/>
@@ -30,7 +31,23 @@ function App() {
           </p>
           <hr/>
           <h3>Skills</h3>
-
+          <hr/>
+          <strong>Front-end</strong>
+          <p>
+            <ul>
+              <li>HTML5, CSS3, Javascript (es6)</li>
+              <li>React.js, jQuery</li>
+              <li>Redux</li>
+            </ul>            
+          </p>
+          <strong>Cooperation</strong>
+          <p>
+            <ul>
+              <li>Git, Source tree</li>
+              <li>VSCode</li>
+            </ul>            
+          </p>
+          <hr/>
         </div>
       </div>
     </div>

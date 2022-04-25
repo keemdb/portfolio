@@ -8,7 +8,8 @@ img {
 }
 
 .title {
-  margin-top: 100px;
+  margin-top: 50px;
+  font-size: 3.5rem;
   font-weight: 700;
 }
 
@@ -23,4 +24,70 @@ img {
 
 .profile img {
   border-radius: 50%;
+}
+.role {
+  display: block;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 4rem 0 2rem;
+}
+
+h3, 
+h4 {
+  font-size: 2rem;
+  margin: 0 0 1rem;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 0 0 0.5rem;
+  color: #333;
+}
+
+p {
+  margin: 0 0 1rem;
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.experience .cont {
+  display: flex;
+  padding: 3rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.experience .cont .cont-left {
+  flex-basis: 38rem;
+  padding-right: 1rem;
+}
+
+.experience .cont .cont-right {
+  flex-grow: 1;
+}
+
+.time {
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.other {
+  padding: 3rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.other span {
+  display: block;
+}
+
+.other img {
+  width: 400px;
+  padding: 20px;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px rgb(0 0 0 / 20%);
 }

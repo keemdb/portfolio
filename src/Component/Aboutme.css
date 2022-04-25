@@ -2,6 +2,12 @@
 	margin: 2rem 0;
   }
 
+.aboutMe h2 {
+	font-size: 3rem;
+	font-weight: bold;
+	margin: 4rem 0 2rem;
+}
+
 .aboutMe p {
 	margin: 30px 0;
 }

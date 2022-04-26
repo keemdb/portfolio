@@ -4,6 +4,10 @@ html, body {
   font-family: 'Noto Sans KR', sans-serif;
 }
 
+body {
+  margin-bottom: 6rem;
+}
+
 img {
   width: 100%;
 }
@@ -92,13 +96,13 @@ p {
   line-height: 1.4;
 }
 
-.experience .cont {
+.cont {
   display: flex;
   padding: 3rem 0;
   border-bottom: 1px solid #eee;
 }
 
-.experience .cont .cont-left {
+.cont-left {
   flex-basis: 38rem;
   padding-right: 1rem;
 }
@@ -127,4 +131,35 @@ p {
   margin-bottom: 2rem;
   border-radius: 20px;
   box-shadow: 2px 2px 8px rgb(0 0 0 / 20%);
+}
+
+@media screen and (max-width: 960px) {
+  body, html {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 0 2rem;
+  }
+
+  .cont {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .cont-left {
+    flex-basis: 100%;
+    padding-right: 0;
+    padding-bottom: 1rem;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .title_sub {
+    font-size: 1.25rem;
+  }
 }

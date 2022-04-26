@@ -14,7 +14,7 @@ function App() {
       <div className="container">
         <div className="row">
           <div className="profile">
-            {/* <img src="./portfolio/img/profile.jpg"/> */}
+            {/* <img src="./img/profile.jpg"/> */}
           </div>
           <h1 className="title">
             UI/UX를 생각하는 개발자,<br/>

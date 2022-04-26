@@ -31,7 +31,7 @@ function Experience() {
 					<li><a href="http://www.raonis.co.kr/sample/R0135/01/01.html" target="_blank">컨텐츠 개발</a></li>
 					<li><a href="http://www.raonis.co.kr/" target="_blank">라오니스 웹사이트</a></li>
 				</ul>
-				<img src="./portfolio/img/work_01.jpg" alt="라오니스 컨텐츠"/>
+				<img src="./img/work_01.jpg" alt="라오니스 컨텐츠"/>
 			</div>
 		</div>
 		<div className="cont">
@@ -61,7 +61,7 @@ function Experience() {
 					<li><a href="http://bookplusapp.com/" target="_blank">Book+App</a></li>
 					<li><a href="http://vproductions.net/kr/" target="_blank">빅토리아 웹사이트</a></li>
 				</ul>
-				<img src="./portfolio/img/work_02.jpg" alt="Book+App"/>
+				<img src="./img/work_02.jpg" alt="Book+App"/>
 			</div>
 		</div>
 	</div>

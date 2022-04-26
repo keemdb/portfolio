@@ -3,6 +3,10 @@ import Aboutme from './Component/Aboutme';
 import Skills from './Component/Skills';
 import Experience from './Component/Experience';
 import Project from './Component/Project';
+import Other from './Component/Other';
+import Education from './Component/Education';
+import Certificate from './Component/Certificate';
+import Contact from './Component/Contact';
 
 function App() {
   return (
@@ -20,7 +24,11 @@ function App() {
           <Aboutme />
           <Experience/>
           <Project/>
+          <Other/>
           <Skills/>
+          <Education/>
+          <Certificate/>
+          <Contact/>
         </div>
       </div>
     </div>

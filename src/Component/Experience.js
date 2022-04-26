@@ -3,7 +3,7 @@ import React from 'react'
 function Experience() {
   return (
 	<div className="experience">
-		<h2>Work Experience</h2>
+		<h2>🗂 Work Experience</h2>
 		<div className="cont">
 			<div className="cont-left">
 				<h3>라오니스</h3>

@@ -3,7 +3,7 @@ import React from 'react'
 function Project() {
   return (
 	<div className="project">
-		<h2>Toy Project</h2>
+		<h2>😺Toy Project</h2>
 		<div className="other">
 			<h3>Netflix Clone</h3>
 			<span className="time">2022. 04</span>
